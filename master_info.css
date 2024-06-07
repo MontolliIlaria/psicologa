@@ -1,0 +1,470 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 17px;
+    font-family: "Ysabeau Office", sans-serif;
+    background-color: #fcfcfa;
+    overflow-x: hidden!important;
+}
+
+.margin_menu {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+h1 {
+    font-size: 3.2em;
+    font-family: "Ysabeau Office", sans-serif!important;
+}
+
+
+/* Media Queries */
+
+
+/* Small devices (landscape phones, 576px and up) */
+
+@media (max-width: 576px) {
+    .logo_container {
+        display: flex;
+        justify-content: flex-start;
+    }
+    .margin_menu {
+        margin: 0;
+    }
+    nav {
+        background-color: whitesmoke!important;
+        text-align: center;
+    }
+    .socials ul {
+        display: flex!important;
+        flex-direction: row;
+    }
+    .socials {
+        margin: 0!important;
+        display: flex!important;
+        flex-direction: row!important;
+        justify-content: space-around;
+        vertical-align: middle;
+    }
+    .my_menu li:first-child {
+        margin-top: 8px;
+    }
+    .my_menu li a:hover {
+        color: grey!important;
+        border: none!important;
+    }
+    .socials li a:hover {
+        transform: none!important;
+    }
+    #news_container {
+        margin-bottom: 30px;
+    }
+    .footer_wrapper div:last-child {
+        margin-top: 20px;
+    }
+}
+
+
+/* Medium devices (tablets, 768px and up) */
+
+@media (max-width: 991px) {
+    .margin_menu {
+        margin: 0;
+    }
+    nav {
+        background-color: whitesmoke!important;
+        text-align: center;
+    }
+    .socials {
+        border-top: 3px dotted rgb(190, 186, 186);
+        padding-top: 10px;
+        margin: 0!important;
+        display: flex!important;
+        flex-direction: row!important;
+        justify-content: space-around;
+    }
+    .socials li a:hover {
+        background-color: rgb(189, 162, 115)!important;
+    }
+    .socials li a i:hover {
+        color: rgb(160, 65, 94)!important;
+    }
+    .socials ul li {
+        display: flex;
+        justify-content: space-around;
+    }
+    .my_menu li:first-child {
+        margin-top: 8px;
+    }
+    .my_menu li a:hover {
+        color: grey!important;
+        border: none!important;
+    }
+    .socials li a:hover {
+        transform: none!important;
+    }
+    .footer_wrapper div:last-child {
+        margin-top: 20px;
+        text-align: center;
+    }
+    #reviews_section {
+        padding-top: 180px!important;
+    }
+    .ms_container {
+        width: 100%;
+        height: 60%;
+    }
+    .images_container {
+        margin: auto;
+        height: 90%;
+        width: 100%!important;
+        margin-top: 35px;
+    }
+    .slide_prev,
+    .slide_next {
+        bottom: 40%;
+        transform: translateY(-40%);
+    }
+    .slide_prev {
+        display: none!important;
+    }
+    .slide_next {
+        display: none!important;
+    }
+    .slider {
+        bottom: 20px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+
+
+/* Devices 767px */
+
+@media screen and (min-width: 577px) and (max-width: 767px) {
+    #reviews_section {
+        padding-top: 150px!important;
+    }
+    .ms_container {
+        width: 100%;
+        height: 65%;
+        display: flex;
+        justify-content: center!important;
+    }
+    .images_container {
+        margin: auto;
+        height: 90%;
+        width: 100%!important;
+        margin-top: 35px;
+    }
+    .slide_prev,
+    .slide_next {
+        bottom: 40%;
+        transform: translateY(-40%);
+    }
+    .slide_prev {
+        right: 105%!important;
+    }
+    .slide_next {
+        left: 105%!important;
+    }
+    .reviews_wrapper {
+        padding: 0!important;
+    }
+    /* .ms_wrapper {
+        height: 100%;
+        width: 130%;
+        position: relative;
+    } */
+}
+
+
+/* Large devices (desktops, 992px and up) */
+
+
+/* @media (min-width: 992px) {
+    ...
+} */
+
+
+/* Extra large devices (large desktops, 1200px and up) */
+
+
+/* @media (min-width: 1200px) {
+    ...
+} */
+
+
+/* Fine Media Queries */
+
+
+/* --- Sezione Chi Sono */
+
+#chi_sono_container {
+    width: 100%;
+    /* border-bottom: 10px groove antiquewhite; */
+    margin-top: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.scopri_container {
+    display: flex;
+    margin-top: 50px;
+    margin-left: 79px;
+}
+
+.scopri_container button {
+    padding: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #fcfcfa;
+    border-radius: 10px;
+    border: 3px solid #a49c8f;
+}
+
+.scopri_container a button {
+    font-size: 1em;
+    color: #a49c8f;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.scopri_container a button:hover {
+    text-decoration: none;
+}
+
+.scopri_container a:hover button {
+    text-decoration: none;
+    background-color: rgba(216, 200, 179, 0.623);
+    border-color: #fcfcfa;
+}
+
+.scopri_container a:hover button {
+    color: #fcfcfa!important;
+}
+
+.scopri_container :focus,
+.scopri_container :active {
+    outline: none;
+}
+
+.chi_sono_p_img {
+    width: 90%;
+    text-align: justify;
+}
+
+.consultazione_title {
+    font-size: 2.3em!important;
+    font-weight: 700!important;
+    color: #ae5b34!important;
+    margin-bottom: 20px!important;
+}
+
+.chi_sono_p_img ul {
+    margin-bottom: 30px;
+}
+
+.chi_sono_p_img .percorso_title {
+    font-weight: 700;
+}
+
+.chi_sono_p_img .percorso_title {
+    margin-bottom: 15px;
+    color: #a1bc99;
+    text-align: right;
+}
+
+
+/* Inizio Informations Section */
+
+#informations_section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 13px;
+}
+
+.informations_wrapper {
+    width: 90%;
+}
+
+.ms_container {
+    padding-bottom: 20px;
+    position: relative;
+    width: 100%;
+    height: 80%;
+}
+
+.titolo_informativo {
+    font-weight: 700;
+    color: #a1bc99;
+    margin-bottom: 15px;
+}
+
+.informations_wrapper p {
+    font-size: 30px;
+}
+
+.reviews_wrapper img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+
+.reviews_wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* --- Fine parte dello Slider */
+
+
+/* Footer */
+
+
+/* Fine Reviews Section */
+
+.footer_container {
+    padding-top: 130px;
+    padding-left: 50px;
+}
+
+#svg_3 {
+    display: inline-block;
+    z-index: 10000;
+}
+
+.svg_container_3 {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    vertical-align: middle;
+    overflow: hidden;
+}
+
+.parent_svg_3 {
+    z-index: 1000;
+    width: 100%;
+    transform: scale(1, -1);
+}
+
+footer {
+    padding-top: 15px;
+    width: 100%;
+    z-index: 10000;
+    font-size: 0.9em;
+    background-image: url('footer.JPG');
+    background-color: #a1bc99;
+    padding-bottom: 30px;
+}
+
+footer h2 {
+    font-size: 2.5em;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fcfcfa;
+    margin-bottom: 16px;
+    margin-top: 15px;
+    display: inline-block;
+}
+
+.larghezza_terzo_footer {
+    width: 30%;
+}
+
+.larghezza_terzo_footer img {
+    margin-left: 200px;
+}
+
+.campo_cellulare img,
+.campo_mail img,
+.campo_via img {
+    width: 40px;
+}
+
+.larghezza_secondo_footer {
+    width: 30%;
+}
+
+.larghezza_primo_footer {
+    width: 40%;
+    font-weight: 500;
+}
+
+.footer_wrapper {
+    font-size: 1.2em;
+    margin-left: auto;
+}
+
+.appuntamento {
+    font-weight: 700;
+    margin-top: 30px;
+    font-size: 1.5em;
+}
+
+.contatti span {
+    white-space: nowrap!important;
+}
+
+.logo_ila_footer_2 {
+    line-height: 1!important;
+}
+
+.footer_socials {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer_wrapper div {
+    flex-direction: column;
+    color: #fcfcfa;
+}
+
+.footer_wrapper .contatti {
+    display: flex;
+    flex-direction: column!important;
+    color: #fcfcfa;
+}
+
+.footer_wrapper .logo {
+    width: 200px;
+    vertical-align: middle;
+}
+
+.social {
+    margin-right: 10px;
+    vertical-align: middle;
+    line-height: 50px;
+    font-size: 30px;
+    list-style-type: none;
+}
+
+.social:last-child {
+    margin: 0;
+}
+
+.social .insta {
+    font-size: 35px;
+}
+
+.social a {
+    color: black;
+}
+
+.social a:hover {
+    color: orange;
+}
+
+.logo_psico img {
+    width: 120px;
+}
