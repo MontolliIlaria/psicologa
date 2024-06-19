@@ -43,6 +43,33 @@ h1 {
         display: flex;
         justify-content: flex-start;
     }
+    .jumbo_text h1 {
+        font-size: 2.5em!important;
+        font-family: 'Stick No Bills', sans-serif;
+        font-weight: bold;
+        color: #698f53;
+        margin-top: -12px;
+        text-transform: uppercase;
+    }
+    #chi_sono_container div:first-child {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        width: 100%;
+        margin-left: 0!important;
+    }
+    .jumbo_text {
+        background-color: transparent;
+        margin-left: 0!important;
+        text-align: center;
+    }
+    .chi_sono_p_img {
+        display: flex;
+        flex-direction: column;
+        font-size: 18px!important;
+        width: 100%!important;
+        text-align: justify;
+    }
     .margin_menu {
         margin: 0;
     }
@@ -383,7 +410,6 @@ main {
     display: flex;
     flex-direction: column;
     font-size: 18px!important;
-    width: 70%!important;
     text-align: justify;
 }
 
