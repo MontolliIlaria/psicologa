@@ -44,7 +44,7 @@ h1 {
         justify-content: flex-start;
     }
     .jumbo_text h1 {
-        font-size: 2.9em!important;
+        font-size: 3.4em!important;
         font-family: 'Stick No Bills', sans-serif;
         font-weight: bold;
         color: #698f53;
@@ -82,6 +82,43 @@ h1 {
     nav {
         background-color: whitesmoke!important;
         text-align: center;
+    }
+    footer {
+        padding-top: 15px;
+        width: 100%;
+        z-index: 10000;
+        font-size: 0.9em;
+        background-image: url('footer.JPG');
+        background-color: #a1bc99;
+        padding-bottom: 30px;
+        overflow-x: hidden!important;
+    }
+    footer h2 {
+        font-size: 2.5em;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #fcfcfa;
+        margin-bottom: 16px;
+        margin-top: 15px;
+        display: inline-block;
+    }
+    .larghezza_terzo_footer {
+        width: 100%!important;
+    }
+    .larghezza_terzo_footer img {
+        margin-left: 0;
+    }
+    .campo_cellulare img,
+    .campo_mail img,
+    .campo_via img {
+        width: 40px;
+    }
+    .larghezza_secondo_footer {
+        width: 100%!important;
+    }
+    .larghezza_primo_footer {
+        width: 100%!important;
+        font-weight: 500;
     }
     .socials ul {
         display: flex!important;
