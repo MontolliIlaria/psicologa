@@ -24,27 +24,16 @@ h1 {
 
 /* Media Queries */
 
-@media screen and (min-width: 1339px) {
-    #jumbotron {
-        z-index: 999;
-        background-image: url('Cattura_totale.JPG');
-        height: 1200px;
-        width: 100%;
-        background-size: cover;
-        background-repeat: no-repeat;
-    }
-}
-
 
 /* Small devices (landscape phones, 576px and up) */
 
-@media (max-width: 576px) {
+@media (min-width: 200px) and (max-width: 950px) {
     .logo_container {
         display: flex;
         justify-content: flex-start;
     }
     .jumbo_text h1 {
-        font-size: 3.4em!important;
+        font-size: 3.3em!important;
         font-family: 'Stick No Bills', sans-serif;
         font-weight: bold;
         color: #698f53;
@@ -56,6 +45,12 @@ h1 {
         flex-direction: column-reverse!important;
         align-items: center!important;
         width: 100%!important;
+    }
+    #informations_section h2 {
+        font-size: 1.8em!important;
+        font-weight: 700!important;
+        color: #a1bc98;
+        text-align: center;
     }
     .jumbo_text {
         background-color: transparent;
@@ -84,14 +79,16 @@ h1 {
         text-align: center;
     }
     footer {
-        padding-top: 15px;
+        margin-top: 15px;
         width: 100%;
         z-index: 10000;
         font-size: 0.9em;
         background-image: url('footer.JPG');
-        background-color: #a1bc99;
         padding-bottom: 30px;
-        overflow-x: hidden!important;
+        height: 600px;
+    }
+    .footer_wrapper {
+        align-items: left;
     }
     footer h2 {
         font-size: 2.5em;
@@ -104,9 +101,6 @@ h1 {
     }
     .larghezza_terzo_footer {
         width: 100%!important;
-    }
-    .larghezza_terzo_footer img {
-        margin-left: 0;
     }
     .campo_cellulare img,
     .campo_mail img,
@@ -151,77 +145,6 @@ h1 {
 
 
 /* Medium devices (tablets, 768px and up) */
-
-@media (max-width: 991px) {
-    .margin_menu {
-        margin: 0;
-    }
-    nav {
-        background-color: whitesmoke!important;
-        text-align: center;
-    }
-    .socials {
-        border-top: 3px dotted rgb(190, 186, 186);
-        padding-top: 10px;
-        margin: 0!important;
-        display: flex!important;
-        flex-direction: row!important;
-        justify-content: space-around;
-    }
-    .socials li a:hover {
-        background-color: rgb(189, 162, 115)!important;
-    }
-    .socials li a i:hover {
-        color: rgb(160, 65, 94)!important;
-    }
-    .socials ul li {
-        display: flex;
-        justify-content: space-around;
-    }
-    .my_menu li:first-child {
-        margin-top: 8px;
-    }
-    .my_menu li a:hover {
-        color: grey!important;
-        border: none!important;
-    }
-    .socials li a:hover {
-        transform: none!important;
-    }
-    .footer_wrapper div:last-child {
-        margin-top: 20px;
-        text-align: center;
-    }
-    #reviews_section {
-        padding-top: 180px!important;
-    }
-    .ms_container {
-        width: 100%;
-        height: 60%;
-    }
-    .images_container {
-        margin: auto;
-        height: 90%;
-        width: 100%!important;
-        margin-top: 35px;
-    }
-    .slide_prev,
-    .slide_next {
-        bottom: 40%;
-        transform: translateY(-40%);
-    }
-    .slide_prev {
-        display: none!important;
-    }
-    .slide_next {
-        display: none!important;
-    }
-    .slider {
-        bottom: 20px;
-        left: 50%;
-        transform: translateX(-50%);
-    }
-}
 
 
 /* Devices 767px */
@@ -269,14 +192,29 @@ h1 {
     }
 }
 
-@media screen and (min-width: 1339px) {
+@media screen and (min-width: 1339px) and (max-width: 1500px) {
     #jumbotron {
         z-index: 999;
         background-image: url('Cattura_totale.JPG');
-        height: 1200px;
+        height: 600px!important;
         width: 100%;
         background-size: cover;
         background-repeat: no-repeat;
+    }
+}
+
+@media screen and (min-width: 1055px) and (max-width: 1290px) {
+    .footer_wrapper div {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+}
+
+@media screen and (min-width: 1895px) and (max-width: 2525px) {
+    footer {
+        background-repeat: repeat-x!important;
+        background-size: cover!important;
+        padding-top: 100px!important;
     }
 }
 
@@ -386,7 +324,7 @@ nav {
 /* Parte del Jumbotron */
 
 #jumbotron {
-    z-index: 999;
+    z-index: 1000;
     background-image: url('Cattura_totale.JPG');
     height: 80vh;
     width: 100%;
@@ -437,6 +375,7 @@ main {
     position: relative;
     background-color: #fcfcfa;
     padding-bottom: 50px;
+    z-index: 999;
 }
 
 
@@ -452,7 +391,6 @@ main {
 #chi_sono_container div:first-child {
     display: flex;
     width: 90%;
-    margin-left: 29px;
 }
 
 .chi_sono_p_img {
@@ -460,6 +398,8 @@ main {
     flex-direction: column;
     font-size: 18px!important;
     text-align: justify;
+    margin-left: 0;
+    padding: 20px;
 }
 
 #chi_sono_container img {
@@ -839,7 +779,6 @@ main {
 
 .footer_container {
     padding-top: 130px;
-    padding-left: 50px;
 }
 
 #svg_3 {
@@ -862,13 +801,18 @@ main {
 }
 
 footer {
+    padding: 30px;
     padding-top: 15px;
     width: 100%;
     z-index: 10000;
     font-size: 0.9em;
     background-image: url('footer.JPG');
     background-color: #a1bc99;
+    width: 100%;
     padding-bottom: 30px;
+    background-repeat: repeat-x!important;
+    background-size: cover!important;
+    padding-top: 100px!important;
 }
 
 footer h2 {
@@ -883,10 +827,6 @@ footer h2 {
 
 .larghezza_terzo_footer {
     width: 30%;
-}
-
-.larghezza_terzo_footer img {
-    margin-left: 200px;
 }
 
 .campo_cellulare img,
@@ -907,6 +847,8 @@ footer h2 {
 .footer_wrapper {
     font-size: 1.2em;
     margin-left: auto;
+    display: flex;
+    background-color: #a1bc99;
 }
 
 .appuntamento {
