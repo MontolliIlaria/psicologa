@@ -27,161 +27,6 @@ h1 {
 
 /* Small devices (landscape phones, 576px and up) */
 
-@media (max-width: 576px) {
-    .logo_container {
-        display: flex;
-        justify-content: flex-start;
-    }
-    .margin_menu {
-        margin: 0;
-    }
-    nav {
-        background-color: whitesmoke!important;
-        text-align: center;
-    }
-    .socials ul {
-        display: flex!important;
-        flex-direction: row;
-    }
-    .socials {
-        margin: 0!important;
-        display: flex!important;
-        flex-direction: row!important;
-        justify-content: space-around;
-        vertical-align: middle;
-    }
-    .my_menu li:first-child {
-        margin-top: 8px;
-    }
-    .my_menu li a:hover {
-        color: grey!important;
-        border: none!important;
-    }
-    .socials li a:hover {
-        transform: none!important;
-    }
-    #news_container {
-        margin-bottom: 30px;
-    }
-    .footer_wrapper div:last-child {
-        margin-top: 20px;
-    }
-}
-
-
-/* Medium devices (tablets, 768px and up) */
-
-@media (max-width: 991px) {
-    .margin_menu {
-        margin: 0;
-    }
-    nav {
-        background-color: whitesmoke!important;
-        text-align: center;
-    }
-    .socials {
-        border-top: 3px dotted rgb(190, 186, 186);
-        padding-top: 10px;
-        margin: 0!important;
-        display: flex!important;
-        flex-direction: row!important;
-        justify-content: space-around;
-    }
-    .socials li a:hover {
-        background-color: rgb(189, 162, 115)!important;
-    }
-    .socials li a i:hover {
-        color: rgb(160, 65, 94)!important;
-    }
-    .socials ul li {
-        display: flex;
-        justify-content: space-around;
-    }
-    .my_menu li:first-child {
-        margin-top: 8px;
-    }
-    .my_menu li a:hover {
-        color: grey!important;
-        border: none!important;
-    }
-    .socials li a:hover {
-        transform: none!important;
-    }
-    .footer_wrapper div:last-child {
-        margin-top: 20px;
-        text-align: center;
-    }
-    #reviews_section {
-        padding-top: 180px!important;
-    }
-    .ms_container {
-        width: 100%;
-        height: 60%;
-    }
-    .images_container {
-        margin: auto;
-        height: 90%;
-        width: 100%!important;
-        margin-top: 35px;
-    }
-    .slide_prev,
-    .slide_next {
-        bottom: 40%;
-        transform: translateY(-40%);
-    }
-    .slide_prev {
-        display: none!important;
-    }
-    .slide_next {
-        display: none!important;
-    }
-    .slider {
-        bottom: 20px;
-        left: 50%;
-        transform: translateX(-50%);
-    }
-}
-
-
-/* Devices 767px */
-
-@media screen and (min-width: 577px) and (max-width: 767px) {
-    #reviews_section {
-        padding-top: 150px!important;
-    }
-    .ms_container {
-        width: 100%;
-        height: 65%;
-        display: flex;
-        justify-content: center!important;
-    }
-    .images_container {
-        margin: auto;
-        height: 90%;
-        width: 100%!important;
-        margin-top: 35px;
-    }
-    .slide_prev,
-    .slide_next {
-        bottom: 40%;
-        transform: translateY(-40%);
-    }
-    .slide_prev {
-        right: 105%!important;
-    }
-    .slide_next {
-        left: 105%!important;
-    }
-    .reviews_wrapper {
-        padding: 0!important;
-    }
-    /* .ms_wrapper {
-        height: 100%;
-        width: 130%;
-        position: relative;
-    } */
-}
-
 @media (min-width: 200px) and (max-width: 950px) {
     .logo_container {
         display: flex;
@@ -195,11 +40,11 @@ h1 {
         margin-top: -12px;
         text-transform: uppercase;
     }
-    #chi_sono_container div:first-child {
-        display: flex;
-        flex-direction: column-reverse!important;
-        align-items: center!important;
-        width: 100%!important;
+    #informations_section h2 {
+        font-size: 1.8em!important;
+        font-weight: 700!important;
+        color: #a1bc98;
+        text-align: center;
     }
     .jumbo_text {
         background-color: transparent;
@@ -211,14 +56,6 @@ h1 {
     }
     .jumbo_text h1 {
         margin-top: 1px!important;
-    }
-    .chi_sono_p_img {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        font-size: 18px!important;
-        width: 100%!important;
-        text-align: justify;
     }
     .margin_menu {
         margin: 0;
@@ -339,11 +176,15 @@ h1 {
     .footer_wrapper {
         flex-direction: column;
     }
-}
-
-@media screen and (min-width: 278px) and (max-width: 1080px) {
-    .footer_wrapper {
-        flex-direction: column;
+    #news_container {
+        height: 225px!important;
+        width: 375px!important;
+    }
+    footer {
+        height: 750px;
+    }
+    informations_wrapper {
+        padding: 30px;
     }
 }
 
@@ -368,7 +209,7 @@ h1 {
 @media screen and (min-width: 1895px) and (max-width: 2525px) {
     footer {
         background-repeat: repeat-x!important;
-        background-size: cover;
+        background-size: cover!important;
         padding-top: 100px!important;
     }
 }
@@ -521,7 +362,6 @@ h1 {
 
 .footer_container {
     padding-top: 130px;
-    padding-left: 50px;
 }
 
 #svg_3 {
@@ -570,10 +410,7 @@ footer h2 {
 
 .larghezza_terzo_footer {
     width: 30%;
-}
-
-.larghezza_terzo_footer img {
-    margin-left: 200px;
+    border: none;
 }
 
 .campo_cellulare img,
@@ -584,26 +421,27 @@ footer h2 {
 
 .larghezza_secondo_footer {
     width: 30%;
+    border: none;
 }
 
 .larghezza_primo_footer {
     width: 40%;
     font-weight: 500;
+    border: none;
 }
 
 .footer_wrapper {
     font-size: 1.2em;
     margin-left: auto;
+    display: flex;
+    background-color: #a1bc99;
+    border: none;
 }
 
 .appuntamento {
     font-weight: 700;
     margin-top: 30px;
     font-size: 1.5em;
-}
-
-.contatti span {
-    white-space: nowrap!important;
 }
 
 .logo_ila_footer_2 {

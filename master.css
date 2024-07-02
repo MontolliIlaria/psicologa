@@ -191,6 +191,13 @@ h1 {
     .footer_wrapper {
         flex-direction: column;
     }
+    #news_container {
+        height: 225px!important;
+        width: 375px!important;
+    }
+    footer {
+        height: 750px;
+    }
 }
 
 @media screen and (min-width: 1339px) and (max-width: 1500px) {
@@ -828,6 +835,7 @@ footer h2 {
 
 .larghezza_terzo_footer {
     width: 30%;
+    border: none;
 }
 
 .campo_cellulare img,
@@ -838,11 +846,13 @@ footer h2 {
 
 .larghezza_secondo_footer {
     width: 30%;
+    border: none;
 }
 
 .larghezza_primo_footer {
     width: 40%;
     font-weight: 500;
+    border: none;
 }
 
 .footer_wrapper {
@@ -850,16 +860,13 @@ footer h2 {
     margin-left: auto;
     display: flex;
     background-color: #a1bc99;
+    border: none;
 }
 
 .appuntamento {
     font-weight: 700;
     margin-top: 30px;
     font-size: 1.5em;
-}
-
-.contatti span {
-    white-space: nowrap!important;
 }
 
 .logo_ila_footer_2 {
