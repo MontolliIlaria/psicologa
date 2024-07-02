@@ -186,6 +186,16 @@ h1 {
     informations_wrapper {
         padding: 30px;
     }
+    .consultazione_title {
+        font-size: 2.1em!important;
+        font-weight: 700!important;
+        color: #ae5b34!important;
+        margin-bottom: 20px!important;
+        text-align: left!important;
+    }
+    .larghezza_primo_footer {
+        font-size: 15px;
+    }
 }
 
 @media screen and (min-width: 1339px) and (max-width: 1500px) {
@@ -296,6 +306,7 @@ h1 {
     font-weight: 700!important;
     color: #ae5b34!important;
     margin-bottom: 20px!important;
+    text-align: left!important;
 }
 
 .chi_sono_p_img ul {
@@ -417,6 +428,10 @@ footer h2 {
 .campo_mail img,
 .campo_via img {
     width: 40px;
+}
+
+.campo_cellulare {
+    color: #fcfcfa!important;
 }
 
 .larghezza_secondo_footer {
