@@ -21,6 +21,14 @@ h1 {
     font-family: "Ysabeau Office", sans-serif!important;
 }
 
+.consultazione_title {
+    font-size: 2.3em!important;
+    font-weight: 700!important;
+    color: #ae5b34!important;
+    margin-bottom: 20px!important;
+    text-align: left!important;
+}
+
 
 /* Media Queries */
 
@@ -187,14 +195,15 @@ h1 {
         padding: 30px;
     }
     .consultazione_title {
-        font-size: 2.1em!important;
+        font-size: 1.6em!important;
         font-weight: 700!important;
         color: #ae5b34!important;
+        margin-top: 40px!important;
         margin-bottom: 20px!important;
         text-align: left!important;
     }
     .larghezza_primo_footer {
-        font-size: 15px;
+        font-size: 12px;
     }
 }
 
@@ -299,14 +308,6 @@ h1 {
 .chi_sono_p_img {
     width: 90%;
     text-align: justify;
-}
-
-.consultazione_title {
-    font-size: 2.3em!important;
-    font-weight: 700!important;
-    color: #ae5b34!important;
-    margin-bottom: 20px!important;
-    text-align: left!important;
 }
 
 .chi_sono_p_img ul {

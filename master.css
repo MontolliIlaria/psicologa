@@ -187,6 +187,17 @@ h1 {
     } */
 }
 
+@media screen and (min-width: 1339px) and (max-width: 1500px) {
+    #jumbotron {
+        z-index: 999;
+        background-image: url('Cattura_totale.JPG');
+        height: 600px!important;
+        width: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
+
 @media screen and (min-width: 278px) and (max-width: 1080px) {
     .footer_wrapper {
         flex-direction: column;
@@ -198,15 +209,16 @@ h1 {
     footer {
         height: 750px;
     }
-}
-
-@media screen and (min-width: 1339px) and (max-width: 1500px) {
+    .larghezza_primo_footer {
+        font-size: 12px;
+    }
     #jumbotron {
         z-index: 999;
         background-image: url('Cattura_totale.JPG');
         height: 600px!important;
         width: 100%;
         background-size: cover;
+        background-position: 85%;
         background-repeat: no-repeat;
     }
 }
@@ -413,10 +425,6 @@ main {
 #chi_sono_container img {
     width: 360px;
     height: 360px;
-}
-
-#chi_sono_container .img_container {
-    margin-right: -50px;
 }
 
 .chi_sono_p_img p {
