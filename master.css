@@ -47,10 +47,11 @@ h1 {
         width: 100%!important;
     }
     #informations_section h2 {
-        font-size: 1.8em!important;
+        font-size: 1.2em!important;
         font-weight: 700!important;
         color: #a1bc98;
         text-align: center;
+        padding-top: 40px!important;
     }
     .jumbo_text {
         background-color: transparent;
@@ -622,7 +623,7 @@ main {
 }
 
 #informations_section h2 {
-    font-size: 2em!important;
+    font-size: 2em;
     font-weight: 700!important;
     color: #a1bc98;
     text-align: center;

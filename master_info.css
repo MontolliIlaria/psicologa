@@ -26,7 +26,33 @@ h1 {
     font-weight: 700!important;
     color: #ae5b34!important;
     margin-bottom: 20px!important;
+}
+
+.titolo_2 {
+    margin-top: 50px!important;
+    margin-left: 20px;
+    width: 76.5%;
     text-align: left!important;
+}
+
+.titolo_1 {
+    margin-top: 30px;
+    width: 75.5%;
+}
+
+.titolo_3 {
+    width: 75%;
+}
+
+.consultazione_paragraph,
+ol {
+    width: 75%;
+}
+
+.titolo_1,
+.titolo_2,
+.titolo_3 {
+    padding-bottom: 13px;
 }
 
 
@@ -49,7 +75,6 @@ h1 {
         text-transform: uppercase;
     }
     #informations_section h2 {
-        font-size: 1.8em!important;
         font-weight: 700!important;
         color: #a1bc98;
         text-align: center;
@@ -191,16 +216,24 @@ h1 {
     footer {
         height: 750px;
     }
-    informations_wrapper {
-        padding: 30px;
-    }
     .consultazione_title {
-        font-size: 1.6em!important;
+        font-size: 1.3em!important;
         font-weight: 700!important;
         color: #ae5b34!important;
-        margin-top: 40px!important;
-        margin-bottom: 20px!important;
-        text-align: left!important;
+    }
+    .titolo_1,
+    .titolo_2,
+    .titolo_3 {
+        width: auto;
+    }
+    .titolo_1,
+    .titolo_2,
+    .titolo_3 {
+        width: auto;
+        text-align: center!important;
+    }
+    .titolo_2 {
+        margin: 0;
     }
     .larghezza_primo_footer {
         font-size: 15px;
@@ -308,6 +341,9 @@ h1 {
 .chi_sono_p_img {
     width: 90%;
     text-align: justify;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 .chi_sono_p_img ul {
@@ -328,14 +364,19 @@ h1 {
 /* Inizio Informations Section */
 
 #informations_section {
-    width: 100%;
     display: flex;
     justify-content: center;
-    margin-top: 13px;
+    align-items: center;
+    margin-top: 50px;
+    width: 100%;
 }
 
 .informations_wrapper {
     width: 90%;
+    text-align: justify;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 .ms_container {
