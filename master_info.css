@@ -79,6 +79,9 @@ ol {
         color: #a1bc98;
         text-align: center;
     }
+    .chi_sono_p_img {
+        text-align: left!important;
+    }
     .jumbo_text {
         background-color: transparent;
         margin-left: 0!important;
