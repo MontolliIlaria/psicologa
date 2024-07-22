@@ -41,7 +41,7 @@ h1 {
 }
 
 .titolo_3 {
-    width: 75%;
+    width: 100%;
 }
 
 .consultazione_paragraph,
@@ -79,7 +79,10 @@ ol {
         color: #a1bc98;
         text-align: center;
     }
-    .chi_sono_p_img {
+    .consultazione_paragraph {
+        text-align: left!important;
+    }
+    .informations_wrapper {
         text-align: left!important;
     }
     .jumbo_text {
@@ -342,7 +345,6 @@ ol {
 }
 
 .chi_sono_p_img {
-    width: 90%;
     text-align: justify;
     display: flex;
     align-items: center;
@@ -375,11 +377,8 @@ ol {
 }
 
 .informations_wrapper {
-    width: 90%;
+    width: 75%;
     text-align: justify;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
 }
 
 .ms_container {
