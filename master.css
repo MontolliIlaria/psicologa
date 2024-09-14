@@ -42,7 +42,7 @@ h1 {
     }
     #chi_sono_container div:first-child {
         display: flex;
-        flex-direction: column-reverse!important;
+        flex-direction: column!important;
         align-items: center!important;
         width: 100%!important;
     }
